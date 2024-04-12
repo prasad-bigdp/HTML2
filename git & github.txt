@@ -6,6 +6,8 @@ for 1st time:
  git config --global user.email "ur mail"
 git config --global user.name "username"
 do git commit -m "update" again
+ 
+if you make change later.. again do git add . and git commit -m "update"
 
 Goto Github.com create an account and repository.
 
