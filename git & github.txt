@@ -16,3 +16,7 @@ when u do push it will open one login prompt,login there and give i agree author
 
 git remote add origin "link"
 git push -u origin main/master
+
+
+For clone: git clone link
+for update : fork
