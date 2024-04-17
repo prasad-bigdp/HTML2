@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <h1>Forms Demo</h1>
+        <!--  reg form ,login form, contact from,survey form, application, feedback,  search, subscribe  -->
+        <form action="main.py" method="post">
+            <!-- 5 min create a simple registration form with name,email,age,password-->
+            <div>
+                <label for="uname">username:</label>
+                <input type="text" name="uname" id="uname">
+            </div><br>
+            <fieldset>
+                <legend>My form</legend>
+                <div>
+                    <label for="em">Email:</label>
+                    <input type="email" name="email" id="em">
+                </div><br><br>
+                <input name="pwd" type="password" placeholder="Enter password">
+            </fieldset>
+            <br><br>
+            <input type="number" placeholder="enter age"><br><br>
+            <div>
+                <label for="DOB">Date of birth</label>
+                <input type="date" name="dob" id="DOB">
+            </div><br>
+            <input type="datetime-local" name="" id=""><br><br>
+            <input type="color" name="" id=""><br><br>
+            <input type="url" name="" id=""><br><br>
+            <input type="file" name="" id=""><br><br>
+            <input type="month" name="" id="">
+            <input type="week" name="" id=""><br><br>
+            <!-- radio, check boxes, drop downs -->
+            <p>Languages known:</p>
+            <input type="checkbox" name="lang" id="java"><label for="java">JAVA</label>
+            <input type="checkbox" name="lang" id="python"><label for="python">Python</label>
+            <input type="checkbox" name="lang" id="PHP"><label for="PHP">PHP</label>
+            <br><br>
+            <p>Select gender:</p>
+            <input type="radio" name="m" id="ma">
+            <label for="ma">Male</label>
+            <input type="radio" name="m" id="fe">
+            <label for="fe">female</label>
+            <br><br>
+
+            <select name="courses" id="course">
+                <optgroup label="IT">
+                    <option value="">JAVA</option>
+                    <option value="p">Python</option>
+                    <option value="f">Frontend</option>
+                </optgroup>
+                <optgroup label="EEE">
+                    <option value="vlsi">VLSI</option>
+                    <option value="stld">STLD</option>
+                </optgroup>
+                <optgroup label="mech">
+                    <option value="ucmp">UCMP</option>
+                    <option value="dsp">DSP</option>
+                </optgroup>
+
+
+            </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <br><br>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="search" name="" id="">
+
+
+
+
+
+            <button type="submit">
+                submit
+            </button>
+        </form>
+    </body>
+
+</html>

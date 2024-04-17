@@ -7,3 +7,5 @@ HTML
  formatting Tags
  symbols and emojis.
  tables
+ semantic elements
+ class and Id
