@@ -9,3 +9,7 @@ HTML
  tables
  semantic elements
  class and Id
+ forms - all input elements
+ validation
+ media- video,audio,iframe,picture
+ HTML5: drag n drop, geolocation, canvas, svg ,data attributes etc.., -- with JS
