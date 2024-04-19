@@ -1,0 +1,54 @@
+CSS(cascading Style Sheets) started in 1994 => CSS3
+CSS is used to style or design the webpage.
+
+How to DO?
+There are 3 ways stylings applies to HTML.
+1. Inline styling:
+You will apply styles in line of any element , "style" as a attribute.
+
+2. Internal Styling:
+You can apply styling  with "style" as a element. usually we will use it in head.
+
+syntax: selector
+{
+    property:value
+}
+
+3. External Styling:
+you can apply styling from external files . all external files must end with .css and link to html by "link" tag
+
+<link rel="stylesheet" href="link" >
+
+inline > internal > external,
+
+** try to use external more **
+
+Selectors:
+/* tagname */
+/* class name */
+if you want to select elements using class name , you have to write .classname
+/* id*/
+if you want to selects element using id name, you have to write #id
+
+id> class > tagname
+
+
+colors:
+by name;
+by hex code,
+by rgb(red,green,blue -- each from 0-200),
+by rgba,(alpha ranges from 0.1 to 1.0)
+by hsl(hue,saturation,lightness -- > hue ranges from 0 to 360 degrees, saturation and lightness ranges fro 0 to 100%)
+by hsla
+
+
+
+
+
+
+
+
+
+
+
+
