@@ -6,6 +6,9 @@ background: radial-gradient(red,blue,red,blue,red,blue,red,blue);
 height: 100vh;*/
 background-color: antiquewhite;
 }
+  button{
+       background-color: aqua;
+    }
 h1{
     text-align: center;
 }

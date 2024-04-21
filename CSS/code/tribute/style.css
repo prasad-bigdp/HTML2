@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.box{
+    height: 50vh;
+    width: 80vw;
+    background-color: aqua;
+    font-size: 25px;
+    font-style: italic;
+}
+.image{
+   height: 100px;
+}
+a
+{
+    background-color: red;
+    height: 200px;
+}
+#para{
+    font-size: 2em;
+    font-family:  "Indie Flower", cursive;
+    font-weight:400;
+    font-style:unset;
+    font-variant: small-caps;
+}
+.cbox{
+    background-color: red;
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: justify;
+
+}*/
+h1
+{
+    text-align: center;
+   
+  
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px red;
+} 
+body
+{
+    background: url('./shinchan.jpg');
+    height: 100vh;
+    width: 100vw;
+   background-repeat: no-repeat;
+   background-size:auto;
+   background-position: center center;
+   background-attachment: scroll;
+
+}
