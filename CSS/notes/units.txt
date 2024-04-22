@@ -35,3 +35,10 @@ text-shadow
 text-transform
 
 background:
+colors,
+gradients
+url
+repeat
+position
+sizer
+attachement

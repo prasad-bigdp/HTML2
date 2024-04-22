@@ -1,0 +1,52 @@
+/* *{
+     box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.main{
+    background-color: aqua;
+    height: 400px;
+}
+.light{
+    background-color: aliceblue;
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+   
+}
+
+/* more selectors */
+/* pseudo elements - starts with : */
+
+*{
+    box-sizing: border-box;
+}
+.light{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.red:hover{
+    background-color: red;
+
+} 
+.green:hover{
+    background-color: green
+}
+.orange:hover{
+    background-color: orange;
+}
+.stand
+{
+    background-color: black;
+    height: 50vh;
+    width: 25px;
+    margin-left: 35px;
+}

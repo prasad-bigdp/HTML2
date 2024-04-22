@@ -1,0 +1,2 @@
+BOX Model is called the "Heart" of CSS.
+Every element in the web page is treated as a box

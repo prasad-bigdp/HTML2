@@ -1,0 +1,55 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background:radial-gradient(red, green);
+}
+/* pseudo elements and pseudo classes*/
+/* hover*/
+a:link
+{
+   background-color: red;
+}
+a:active{
+    background-color: black;
+    color: white;
+}
+a:visited
+{
+    color: yellow;
+}
+input:hover{
+    background-color: blue;
+}
+input:focus
+{
+    background-color: red;
+}
+input:enabled{
+    background-color: yellow;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+.box:nth-child(1),
+.box:nth-child(5)
+{background-color: red;
+}
+.box:empty{
+    background-color: yellow;
+}
+/* pseudo classes */
+p::first-letter{
+    font-size: 50px;
+}
+p::first-line
+{
+    background-color: red;
+}
+p::before{
+    content:"prasad"
+}
