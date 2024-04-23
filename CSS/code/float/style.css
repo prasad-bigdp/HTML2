@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.image{
+    float:left;
+}
+.banner{
+    width: 100%;
+    padding: 50px;
+}
+p
+{
+    clear: both;
+}
+.box{
+    width: 50%;
+    height:auto;
+    float:left;
+}
+.box img
+{
+    border-radius: 50%;
+}

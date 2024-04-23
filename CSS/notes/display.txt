@@ -1,0 +1,10 @@
+display property is used to make elements appear in different ways. Ususally there are two types of elements.
+1. display:block ---> theses elements don't allow next elements to be side by side them.
+2.display: inline ---> these elements allows next elements to adjust next to them.
+Also inline elements cannot have height and width.
+3. display:inline-block: incase we want elements  side by side and also height , width for them, we can give them property siplay inline block
+
+4. display: table--> it arranges given elements as tables. so inside that every elemnt is considered as tr
+
+5. display: none ---> it removes the element from DOM. its place is allocated to next element.
+

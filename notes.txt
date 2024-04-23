@@ -13,3 +13,22 @@ HTML
  validation
  media- video,audio,iframe,picture
  HTML5: drag n drop, geolocation, canvas, svg ,data attributes etc.., -- with JS
+
+ CSS
+ -------------------------
+ Different CSS Styles(inline,internal,external)
+ Basic Selectors(tagname,.classname,#id)
+ colors(by name,hex code,rgb,rgba,hsl,hsla)
+ background(color,gradient-->linear,radial,image,position,repeat,size,attachement)
+ fonts(google fonts,size,family,weight,style)
+ Text(align,decoration,transform,shadow)
+ Box model(border,border-radius,margin,padding)
+ units(px,em,rem,vw,vh,%)
+ pseudo elements(:)/pseudo classes(::)
+ float and display
+
+
+
+
+
+

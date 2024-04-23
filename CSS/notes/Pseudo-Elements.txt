@@ -1,0 +1,40 @@
+Pseudo-Elements
+::after - Insert content after the content of an element.
+::before - Insert content before the content of an element.
+::first-letter - Selects the first letter of the first line of a block element.
+::first-line - Selects the first line of a block element.
+::selection - Selects the portion of an element that is selected by a user.
+Pseudo-Classes
+:active - Applies while an element is being activated by a user.
+:checked - Applies to a checked checkbox or radio button.
+:default - Applies to the default button in a group of buttons.
+:disabled - Applies to disabled elements.
+:empty - Applies when an element has no children or text content.
+:enabled - Applies to enabled elements.
+:first-child - Applies to the first child of a parent element.
+:first-of-type - Applies to the first occurrence of a specific type of element.
+:focus - Applies while an element has focus.
+:hover - Applies while an element is being hovered over by a pointer.
+:in-range - Applies to elements with a value within a specified range.
+:invalid - Applies to elements with an invalid value.
+:lang() - Applies to elements with a specific lang attribute value.
+:last-child - Applies to the last child of a parent element.
+:last-of-type - Applies to the last occurrence of a specific type of element.
+:link - Applies to unvisited links.
+:not() - Applies to elements that do not match a specific selector.
+:nth-child() - Applies to elements based on their position within a parent element.
+:nth-last-child() - Applies to elements based on their position counting from the last child.
+:nth-last-of-type() - Applies to elements based on their position counting from the last occurrence of a specific type of element.
+:nth-of-type() - Applies to elements based on their position within a parent element, counting only elements of a specific type.
+:only-of-type - Applies to elements that are the only ones of their type within a parent element.
+:only-child - Applies to elements that are the only child of their parent element.
+:optional - Applies to elements that are not required.
+:out-of-range - Applies to elements with a value outside a specified range.
+:read-only - Applies to elements that are read-only.
+:read-write - Applies to elements that are read-write (not read-only).
+:required - Applies to elements that are required.
+:root - Applies to the root element of a document.
+:target - Applies to the target element of a URL anchor link.
+:valid - Applies to elements with a valid value.
+:visited - Applies to visited links.
+
