@@ -1,0 +1,4 @@
+Flex is basically used for one direction but grid is used for two dimensional
+Flex deals with either row or column
+grid deals with row and column.
+grid can be used for complex layout

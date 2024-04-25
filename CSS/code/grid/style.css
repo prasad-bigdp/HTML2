@@ -1,0 +1,34 @@
+.main{
+   display: grid;
+   grid-template-columns:repeat(4,auto);
+   width:300px;
+   height:300px;
+  grid-template-areas: "a a a"
+                       "b c e"
+                       "b d e";
+   
+}
+.box{
+    background-color: red;
+    border: 1px solid white;
+   
+    color: white;
+}
+.first
+{
+ grid-area: a;
+}
+.second{
+    grid-area: b;
+}
+.third{
+    grid-area: c;
+}
+.fourth
+{
+    grid-area: d;
+}
+.fifth
+{
+    grid-area: e;
+}

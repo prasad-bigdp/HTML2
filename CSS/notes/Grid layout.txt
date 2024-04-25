@@ -1,0 +1,78 @@
+Grid layout in  allows you to create complex and responsive layouts with rows and columns. Similar to flexbox, grid layout also has several properties that control the layout and alignment of items within a grid container. Here's a detailed explanation of each property for grid containers:
+
+display: This property is used to define a grid container. It can take the following values:
+grid: Establishes a grid container.
+inline-grid: Establishes an inline grid container.
+
+
+.container {
+  display: grid;
+}
+grid-template-rows and grid-template-columns: These properties define the number and size of rows and columns in the grid.
+grid-template-rows: Defines the height of each row.
+grid-template-columns: Defines the width of each column.
+You can specify the size of rows and columns using different units like px, em, %, or fr (fraction of available space).
+
+
+.container {
+  grid-template-rows: 100px 200px;
+  grid-template-columns: 1fr 2fr;
+}
+grid-template-areas: This property defines named grid areas that can be referenced by grid items.
+Each cell in the grid is represented by a string value.
+Empty cells are represented by a period (.).
+
+.container {
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+grid-template: This is a shorthand property for setting grid-template-rows, grid-template-columns, and grid-template-areas in a single declaration.
+
+
+.container {
+  grid-template:
+    "header header"
+    "sidebar main"
+    "footer footer" /
+    1fr 2fr;
+}
+grid-gap or gap: This property sets the gap between grid items in the grid container. It can take one or two values to set row and column gaps separately.
+
+
+.container {
+  grid-gap: 10px; /* row and column gaps are 10px */
+}
+
+/* OR */
+
+.container {
+  row-gap: 10px; /* row gap is 10px */
+  column-gap: 20px; /* column gap is 20px */
+}
+justify-items and align-items: These properties align grid items inside the grid cells along the row (justify) and column (align) axes, respectively. They can take the following values:
+start: Items are aligned to the start of the grid cell.
+end: Items are aligned to the end of the grid cell.
+center: Items are centered inside the grid cell.
+stretch: Items are stretched to fill the grid cell.
+
+
+.container {
+  justify-items: center;
+  align-items: center;
+}
+justify-content and align-content: These properties align the grid along the row (justify) and column (align) axes, respectively. They are used when the grid container has extra space. They can take the following values:
+start: Grid is aligned to the start of the grid container.
+end: Grid is aligned to the end of the grid container.
+center: Grid is centered inside the grid container.
+stretch: Grid is stretched to fill the grid container.
+space-around: Space is distributed around the grid items.
+space-between: Space is distributed between the grid items.
+space-evenly: Space is distributed evenly between and around the grid items.
+
+.container {
+  justify-content: center;
+  align-content: center;
+}
+These properties can be applied to the parent element (the grid container) to control the layout and alignment of its child elements (grid items) within a grid layout. Grid layout provides a powerful and flexible way to create complex and responsive layouts in , especially for two-dimensional layouts.

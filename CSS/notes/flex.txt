@@ -1,0 +1,6 @@
+Flex is used to set some items into a flexible container. 
+Flex container always be in one direction.
+
+flex make the elements adjusted inside the container.
+
+if all elements arranged in x axis / row then main axis is X axis ... justify -- MA and cross axis is y axis... align ---CA
