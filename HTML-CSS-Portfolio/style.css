@@ -3,6 +3,7 @@
 *{
     --primary:dodgerblue;
     scroll-behavior: smooth;
+    cursor: crosshair;
 }
 
 body{

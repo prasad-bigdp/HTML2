@@ -1,0 +1,11 @@
+Imagine someone else write a code for you or some predefined code is there which you can use directly.That's where libraries comes.
+
+Library means some predined logic or code which can be used for a specific purpose.
+
+you can use libraries by linking cdn or installing through npm
+
+you can use animate.css to understand libraries
+
+one of the popular css library is Bootstrap. The current version of Bootstrap is bootstrap 5. Bootstrap is component based library. 
+
+

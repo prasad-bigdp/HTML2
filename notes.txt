@@ -26,6 +26,12 @@ HTML
  units(px,em,rem,vw,vh,%)
  pseudo elements(:)/pseudo classes(::)
  float and display
+ flex
+ grid
+ position
+ transition
+ animation
+ media queries
 
 
 
