@@ -33,6 +33,15 @@ HTML
  animation
  media queries
 
+ Bootstrap
+ ========================
+ Libraries, animate css etc..,
+ Bootstrap -intro
+ Layout
+ colors
+ break points
+ 
+
 
 
 
