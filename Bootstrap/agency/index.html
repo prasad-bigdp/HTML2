@@ -8,11 +8,10 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-            <style>
-                *{
-                    --bs-blue:pink;
-                }
-            </style>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.css"
+                integrity="sha512-ywmPbuxGS4cJ7GxwCX+bCJweeext047ZYU2HP52WWKbpJnF4/Zzfr2Bo19J4CWPXZmleVusQ9d//RB5bq0RP7w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     </head>
 
     <body>
@@ -29,10 +28,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About</a>
+                            <a class="nav-link text-white" href="#about">About</a>
                         </li>
                         <li class="nav-item dropdown text-white">
                             <a class="nav-link dropdown-toggle text-white" href="#" role="button"
@@ -64,10 +63,10 @@
 
         <!-- banner slider -->
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100" data-bs-interval="2000">
                    <div class="row h-100 p-5">
-                    <div class="col h-100">
+                    <div class="col h-100 d-flex flex-column justify-content-between">
                         <h1>Heading</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati delectus dolorum, numquam nulla possimus
                             praesentium ipsam minus ut quas quibusdam voluptate? Molestiae natus laborum enim eaque officiis inventore,
@@ -82,8 +81,8 @@
                     </div>
                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                   <div class="row">
+                <div class="carousel-item h-100" data-bs-interval="2000">
+                   <div class="row h-100 p-5">
                     <div class="col">
                         <img src="./assets/img2.jpg" class="d-block w-100" alt="img2">
                     </div>
@@ -99,12 +98,6 @@
                     </div>
                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img4.jpg" class="d-block w-100" alt="...">
-                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="prev">
@@ -118,7 +111,173 @@
             </button>
         </div>
 
+      <div id="about">
+        <h2 class=" text-center">About</h2>
+        <p class="p-5" style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ipsa labore
+            non repudiandae totam dicta minima unde aspernatur fugiat dolores quibusdam adipisci magni asperiores laboriosam eos
+            quas explicabo velit, consectetur a nulla voluptas officiis ea? Nulla quisquam inventore delectus qui totam, numquam
+            voluptatibus eum consectetur vitae voluptates, et possimus nam nemo? Placeat consequatur quam minima possimus saepe
+            numquam itaque doloremque quaerat magnam vero excepturi harum minus dolorum consequuntur, nesciunt, adipisci
+            laudantium illum officiis totam error nobis sed animi ducimus optio! Id fugit est quia dicta, quo exercitationem
+            dolore dolorum voluptatibus placeat alias nesciunt, molestias iure. Velit rem neque quod aut harum necessitatibus
+            corporis nulla architecto doloremque vitae sunt delectus optio qui atque nostrum aperiam quaerat, ad nam magni,
+            obcaecati quidem! Maiores optio mollitia aliquid, corporis temporibus ipsum eum aperiam labore animi eos repellendus
+            corrupti veniam non cupiditate tempora accusamus voluptatum in earum omnis laboriosam exercitationem sed culpa?
+            Aliquam, earum error porro, odit quam rerum quasi amet fugit ipsa molestias rem et veniam. Voluptatum dignissimos
+            numquam autem dolorem culpa omnis officiis molestiae porro adipisci eius praesentium quas quasi, quo repudiandae
+            iusto magnam atque fuga voluptatem dicta voluptates! Quis quae nam sint iure totam asperiores sequi veniam dolorum,
+            autem maiores sit voluptatem?</p>
+      </div>
 
+      <div id="projects" class=" container">
+        <h2 class="text-center">Projects</h2>
+         <div class="row d-flex gap-4 m-2">
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis sed hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic, maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis sed
+                        hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic,
+                        maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis sed
+                        hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic,
+                        maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+         </div>
+        <div class="row  d-flex gap-4 m-2">
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis
+                        sed hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur
+                        hic, maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis
+                        sed
+                        hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic,
+                        maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis
+                        sed
+                        hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic,
+                        maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="row  d-flex gap-4 m-2">
+            <div class="col-4 card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis
+                        sed hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur
+                        hic, maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+            <div class="col-4 card">
+                <img class="card-img-top" src="./assets/img3.jpg">
+                <div class="card-body">
+                    <h2 class="card-title">Title of the Project</h2>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa tempore doloremque corporis illo
+                        saepe, eius quibusdam iste eum perspiciatis iure aperiam molestiae fuga porro libero aut eligendi nobis
+                        sed
+                        hic? Aliquam, tempore? Tenetur magni ratione distinctio molestiae labore quaerat vel consequuntur hic,
+                        maxime fuga velit minima reiciendis non, impedit dolorum.</p>
+                    <button class="btn btn-primary">click me</button>
+                </div>
+            </div>
+        </div>
+      </div>
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400554060765!2d78.0395619096799!3d27.175144776393616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1714728926260!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col">
+                <h2 class="text-center">Contact form</h2>
+                <div class="row">
+                    <div class="col">
+                    <i class="bi bi-telephone-fill"></i>
+                        <p><span class=" fw-bold">Mobile:</span><br>
+                       54645555855</p>
+
+                    </div>
+                    <div class="col">
+                        <p><span class=" fw-bold">Email:</span><br>
+                       abc@xyz.pqr</p>
+                    </div>
+                    <div class="col">
+                        <p><span class=" fw-bold">Location:</span><br>Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001</p>
+                    </div>
+                </div>
+                <div class="row">
+                  <form class=" needs-validation" action="" novalidate>
+                    <div class="form-floating">
+                        <input type="text" class=" form-control" placeholder="Enter the Name" required>
+                        <div class=" invalid-feedback">Enter the xyz</div>
+                        <label for="" class="form-label">Enter the Name</label>
+                       
+                    </div> 
+                    <br>
+                    <div class="form-floating">
+                        <input type="email" class=" form-control" placeholder="Enter the email">
+                        <label for="">Enter the email</label>
+                    </div><br>
+                    <div class="form-floating">
+<textarea class=" form-control" placeholder="Enter the message" name="" id=""></textarea>
+<label for="">Enter the message</label>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit" role="alert">contact</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+     </div>
+     <footer class="container-fluid bg-black text-white text-center py-5">
+      This site belongs to &copy; 2024
+     </footer>
 
         <!-- bootstrap js file-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
