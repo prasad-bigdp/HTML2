@@ -1,0 +1,40 @@
+body{
+background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+
+}
+.box{
+perspective: 300px;
+background-color: azure;
+
+}
+#image
+{
+height: 300px;
+width: 300px;
+/* clip-path: polygon(0 44%, 80% 0%, 100% 100%, 65% 51%); */
+transition: all 5s ease;
+/* filter:sepia() */
+
+}
+#image:hover{
+    /* clip-path: polygon( 0% 100%,0% 100%,0% 100%,0% 100%); */
+    /* filter: none; */
+    
+}
+
+.box1{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 2;
+}
+.box2{
+     background-color: red;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
