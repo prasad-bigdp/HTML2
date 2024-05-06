@@ -1,0 +1,13 @@
+Datatypes: Datatypes defines the type of data. Primarily there are two data types
+1. Primtive Data types:
+There are mainly 5 primitve data types
+   i. number: any number whether it is decimal or integer or negitive consider as number in JS
+2. Non-Primitve Data Types/ reference Data Types
+
+
+2. Explain number data Type with its built in methods in details.
+
+var a=5;
+when you assign a numeric value to a identifier , it will become number data type.
+
+to check datatypes use typeof() operator

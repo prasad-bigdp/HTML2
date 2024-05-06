@@ -1,0 +1,79 @@
+JS or Javascript started in 1995 , intially it was named as LiveScript, but later changed to javascript to attain attention from java developers.
+JS is called the language of Web.
+JS uses JIT(just in time) Compiler and JS engine(every browser have their own JS engines like chrome -v8, edge - chakra and firefox - spidermonkey) interpret the Javascript
+Any error in JS will make the program halt execution
+JS is case Sensitive.
+JS is synchronous(line by line), single-threaded language(one task at a time).
+
+
+
+How to include JS to HTML?
+There are two ways to include JS to HTML. 
+Internal JS and External JS
+Internal: Js code can be written in the HTML,using script tag
+External : JS code can be written in the HTML, using script src and JS will actually separate file here.
+<script src="path"></script>
+
+
+How to do comments in JS?
+There are two ways to implement comments in JS. 
+1.single line Coomenting : // this is a single line comment
+2. multi line comment: /*...............................
+...............................*/
+
+** comments are optional but effective
+
+List of Topics:
+Every Programming language will have some basics to cover:
+1. variables/Identifiers
+2. data types
+3. operators
+4. functions(built in & custom)
+5. control statements(if and switch)
+6. loops(while,dowhile,for)
+
+what are variables and how to print them in JS?
+We can use var for variables, we will discuss let and const later. to print , we can use console.log();
+
+var a=30;
+console.log(a)===>30
+
+Basic default methods:
+alert()--> used to alert something;
+prompt()--> used to take inputs from user
+confirm() --> used for confirming
+
+WAP to take two numbers and print their sum in console.
+Var val1 = prompt(“enter the value”)
+Var val2 = prompt(“enter the value”)
+Console.log(val1+val2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
