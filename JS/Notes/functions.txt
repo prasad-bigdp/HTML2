@@ -1,0 +1,10 @@
+Functions are used to do specific tasks. Whole code will be divided into different tasks for easy understanding and reusabilty, each chunk is a Function
+There are two types of functions:
+1. built-in/library functions
+2. user-defined functions: functions defined by user..
+
+function function-name(parameters)
+{
+    // function body - definition
+}
+function-name(arguments) //calling

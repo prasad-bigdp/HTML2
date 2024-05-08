@@ -2,7 +2,20 @@ Datatypes: Datatypes defines the type of data. Primarily there are two data type
 1. Primtive Data types:
 There are mainly 5 primitve data types
    i. number: any number whether it is decimal or integer or negitive consider as number in JS
+   ii. strings
+   iii. boolean
+   iv. undefined
+   v. null
 2. Non-Primitve Data Types/ reference Data Types
+   i. functions
+   ii. arrays
+   iii. objects
+
+JS follows dynamic Data typing/Duck typing.
+5+'4' ==> '54'
+5-'4' ===> 1
+5+true===>6
+
 
 
 2. Explain number data Type with its built in methods in details.
@@ -11,3 +24,71 @@ var a=5;
 when you assign a numeric value to a identifier , it will become number data type.
 
 to check datatypes use typeof() operator
+
+any numerical value like decimal, none-decimal,fractions considered as number data type only.
+
+There are some default methods for number datatype:
+1. variable.toFixed(n)==> returns n digit rounded value after decimal
+eg:36.38596.toFixed(2)==>36.39
+2. variable.toPrecision(n) ==> returns n digit rounded value from the beginning
+eg: 36.38596.toPrecision(3) ===>36.4 
+3. variable.toString(base)==> convert given value to given base number
+eg:23.toString(2)==> 10111
+
+There some math methods also can be used.
+Math.sqrt(16) ===>4
+Math.cbrt(27)===>3
+Math.pow(2,3)===>8 or 2**3===>8
+Math.max(3,4)===>4
+Math.min(3,4)===>3
+Math.ceil(3.16)===>4
+Math.floor(3.85)===>3
+Math.round(3.2)===>3
+Math.random()==>0.0 - 1.0 any random value.
+
+
+
+
+
+
+What are Strings? Explain its use with built in functions.
+
+
+trings are a fundamental data type and are used in many aspects of programming, such as displaying messages to users, reading and writing files, and manipulating textual data. They can contain letters, numbers, symbols, and spaces.
+
+Here are some common built-in functions used with strings in many programming languages:
+
+Length: This function returns the number of characters in a string. For example, the string "Hello" has a length of 5.
+Concatenation: This operation is used to combine two or more strings into a single string. For example, "Hello" + "World" results in "HelloWorld".
+Substring/slice: This function extracts a portion of a string. It takes two arguments: the starting index and the ending index. For example, the substring of "Hello, World!" from index 7 to 11 would be "World".
+Index: This function returns the index of the first occurrence of a specified substring within the string. If the substring is not found, it returns -1.
+Replace: This function replaces all occurrences of a specified substring with another substring.
+Uppercase/Lowercase: These functions convert all characters in a string to uppercase or lowercase, respectively.
+Trim: This function removes whitespace from the beginning and end of a string.
+Split: This function splits a string into an array of substrings based on a specified delimiter.
+
+Hoisting: Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their containing scope before code execution. This means that regardless of where variables and functions are declared in your code, they are moved to the top of their scope during the compilation phase. However, only the declarations are hoisted, not the initializations. For example:
+
+console.log(x); // undefined
+var x = 5;
+In the above example, the variable x is hoisted to the top of its scope, so console.log(x); is valid, but since the initialization var x = 5; is not hoisted, x is undefined at the time of the log.
+Execution Context: Execution context is an abstract concept that holds information about the environment within which the current code is being executed. There are three types of execution contexts in JavaScript:
+Global Execution Context: This is the default or outermost execution context. It is associated with the global object (window in browsers, global in Node.js) and is created when the script is executed.
+Function Execution Context: Every time a function is called, a new execution context is created for that function. Each function has its own execution context, which includes information about the function's arguments, local variables, and the scope chain.
+Eval Execution Context: This is created when code is executed inside the eval function. It is deprecated and should be avoided due to security risks.
+Call Stack: The call stack is a mechanism used by the JavaScript runtime to keep track of the execution of function calls. When a function is called, a new frame is pushed onto the call stack to store information about the function call, including the function's arguments and local variables. When the function returns, its frame is popped off the call stack, and control is returned to the calling function. This process continues until the call stack is empty.The call stack helps ensure that function calls are executed in the correct order and allows JavaScript to keep track of the execution flow of the program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
