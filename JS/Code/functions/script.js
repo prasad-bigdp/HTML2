@@ -85,6 +85,7 @@ xyz(mad, bad)
 // operators
 //arithematic -- +,-,*,/,%,**
 //logical  && , ||,!
+//2==="2"
 //relational >,<,>=,<=,==,===,!=,!==
 //incr,decr ++(pre,post), --
 //assignment += -= *= /= %=, =
@@ -94,6 +95,19 @@ xyz(mad, bad)
 var x=35
 var res = (x > 20) ? 25 : 20;
 console.log(res)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
