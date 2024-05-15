@@ -40,6 +40,30 @@ HTML
  Layout
  colors
  break points
+
+ JS
+============================
+variables(var,let,const)
+hoisting,executuin content,call stack,
+data types(numbers-math methods, strings- methods,boolean,undefined,null)
+operators
+functions(callback,closure,fn expressions)
+if.. switch
+while... do,while.... for... for--in,for---of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
