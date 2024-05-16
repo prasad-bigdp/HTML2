@@ -1,0 +1,54 @@
+Object contains key value pairs, it may contain data or methods
+obj={
+    name:"raj",
+    age:20
+}
+obj.age ===> objectname.keyname== value
+obj["age"]==>value
+
+whole Js is operated by Window Object. window is global object. whole HTML,css is stored as a tree inside an object called document. 
+using this "document" object you can change,create,update HTML/css
+that is called DOM(document object model) manipulation
+
+
+1. selection:
+  i. we can select the element by tagname
+   document.getElementsByTagName('tagname')
+
+  ii. we can select the element by class name
+  document.getElementsByClassName('classname')
+
+  Note: tagname and classname returns array(HTMLCollection)
+
+  iii.we can select the element by Id.
+  document.getElementById('idname')
+
+  iv. we can select the element by CSS Query 
+  document.querySelector('query')
+
+  But query selector selects the first element only which satistfies query
+
+  v. we can select all elements satisfying the condition by querySelectorALL()
+
+2. Manipulation:  
+you can maipulate the value of any selected element by three functions
+
+  i. textContent
+    textContent is used to manipulate/take the text inside the selected element
+  ii. innerText
+   innerText is used to manipulate/take the text inside the selected element but innerText also checks CSS and fails if visibility is hidden
+  iii. innerHTML
+   innerHTML actually takes the code and reads it before manipulation
+
+
+
+
+
+
+
+
+
+
+
+
+
