@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#library{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.cartoon img{
+ width: 200px;
+ height: 100px;
+}
+.cartoon{
+    box-shadow: 5px 5px black;
+    padding: 20px;
+}

@@ -50,6 +50,7 @@ operators
 functions(callback,closure,fn expressions)
 if.. switch
 while... do,while.... for... for--in,for---of
+DOM(selection,Manipulation)
 
 
 
