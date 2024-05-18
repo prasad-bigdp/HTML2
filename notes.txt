@@ -1,3 +1,11 @@
+
+what to learn: https://roadmap.sh/react
+where to learn: https://github.com/markodenic/web-development-resources
+projects: https://github.com/practical-tutorials/project-based-learning
+
+Build one project
+
+
 HTML
 ---------
  Tags vs elements
