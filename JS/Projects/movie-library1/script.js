@@ -2957,15 +2957,16 @@ function displayData (data)
         desc.textContent = movie.storyline.slice(0, 100) + " ...";
         const button = document.createElement('button')
         button.textContent = "Add to favourite 💗"
-        button.addEventListener('click',  incr)
+        button.addEventListener('click', function(event){incr(movie.title,event)} )
         div.append(image, title, year,actors, desc,button);
         mainDiv.appendChild(div)
    })
 }
 displayData(movies)
-function incr (e)
+function incr (mt,e)
 {
-    console.log(e.target.textContent)
+	console.log(mt, e.target.textContent)
+	document.getElementById("modal-body").textContent=mt+" is added to favourites successfully"
     if (e.target.textContent == "Add to favourite 💗") {
         ++count
         openModal();

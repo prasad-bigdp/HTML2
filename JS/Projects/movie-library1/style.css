@@ -21,6 +21,7 @@ header
     padding:30px 10px;
     position: sticky;
     top: 0px;
+    z-index: 1000;
   
 }
 header .logo{
@@ -66,9 +67,9 @@ footer{
 #modal{
     height:20vh;
     width: 40vw;
-    position: absolute;
-    top: 50%;
-    left:30%;
+    position: fixed;
+    top:50vh;
+    left:30vw;
     padding: 50px;
     display: flex;
     flex-direction: column;

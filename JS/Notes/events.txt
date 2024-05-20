@@ -1,0 +1,15 @@
+Events trigger actions like functions
+There are so many types of Events
+MouseEvents: initiated by mouse.
+click,bdlclick,mouseover,mouseout etc.,
+KeyBoardEvents: initiated keyboard buttons
+formEvents: onchange,oninput,onselect,onsubmit
+window events:global events
+
+onclick etc.., are called event handlers but to trigger events in js , we use event listeners.
+event listners creates an object which waits until the specified action/event got done
+
+Event propagation means how events travel or executed one by one
+
+
+In realtime caputing/bubbling used to event delegation
