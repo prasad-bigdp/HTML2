@@ -1,0 +1,15 @@
+JS is synchronous(line by line), single threaded (one task at a time) language
+Some times we need to perform taasks which takes a time.
+asynchronous js
+
+Timers: every browser have a web API names timers. There are two timers,
+setTimeOut(): it runs fns after specific time only once
+setInterVal(): it runs fns after specific time again and again
+setTimeout(fn,time in milli seconds)
+
+API(Application Programming Interface):
+Application interact with each other for data/service through API's.
+Every point points to an End Point. End point is where the data locates/ user points.
+
+In olden times, we used to use XmlHttpRequest(XHR) but modern browsers supports fetch which takes an url end point and results data.
+

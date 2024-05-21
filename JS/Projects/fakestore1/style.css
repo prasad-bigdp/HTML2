@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+#products{
+display: grid;
+grid-template-columns: repeat(3,auto);
+}
+.product{
+ box-shadow: 5px 5px black;
+ padding: 50px;
+ border-radius: 25px;
+}
+.product img{
+    height: 300px;
+}
