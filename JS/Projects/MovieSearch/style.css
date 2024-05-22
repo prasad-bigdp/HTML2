@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 50px;
+    width: 50vw;
+    font-size: 24px;
+    border-radius: 20px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+#output{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.movie img{
+height: 300px;
+width: 200px;
+
+}
+.movie{
+    box-shadow: 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
