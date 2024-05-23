@@ -1,0 +1,2 @@
+this means current calling object
+if an object calls a specific method, then that particular method works for that object
