@@ -5,7 +5,10 @@
     scroll-behavior: smooth;
     cursor: crosshair;
 }
-
+.swiper {
+  width: 600px;
+  height: 300px;
+}
 body{
     box-sizing: border-box;  
  font-family: "Sofia", cursive;

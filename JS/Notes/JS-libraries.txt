@@ -1,0 +1,1 @@
+Library is pre written code for a specific purpose

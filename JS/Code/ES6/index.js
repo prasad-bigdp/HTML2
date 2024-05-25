@@ -61,5 +61,25 @@ let obj2 = new Teacher("pooja", 45, 60000, "maths")
 obj2.display()
 console.log(incr(5))
 console.log(run("JS"))
+function sum (a,...b)
+{
+  console.log(b)
+  const arr=[2,5,...b,8,9]
+  return b.reduce((p,c)=>p+c,);
+}
+const arr1=[25,26]
+const result = sum(2,...arr1)
+console.log(result)
+let obj = {
+  name2: "shekhar2",
+  age:55
+}
+const { name2, age } = obj
+const[p,q,r,s,t]=[8,7,4,1,6]
+console.log(name2,age,p)
+
+
+
+
 //Module system are used to transfer data,functions,classes from one file to another file
 //we have requireJs,commonJs and other module systems like UTS and all

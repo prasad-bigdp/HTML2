@@ -10,6 +10,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
 </head>
 <body>
     <header>
@@ -49,8 +54,8 @@
         </section>
                     <h2 class="heading">Projects</h2>
 
-        <section id="projects">
-            <div id="project">
+        <section id="projects" >
+            <div id="project" data-aos="zoom-in">
               <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1714468800~exp=1714472400~hmac=cd9a480aa0c746cae94dbb221240d11c3394795096d393d1ff85c3887a103f06&w=740" alt="pro-image">
               <h3>Title of the Project</h3>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi maxime, excepturi esse odio hic dolore nemo possimus, tenetur quas, vero officiis autem sint quam! Aspernatur illum placeat hic eveniet.</p>
@@ -62,14 +67,14 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi maxime, excepturi esse odio hic
                     dolore nemo possimus, tenetur quas, vero officiis autem sint quam! Aspernatur illum placeat hic eveniet.</p>
             </div>
-            <div id="project">
+            <div id="project" data-aos="zoom-in">
                 <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1714468800~exp=1714472400~hmac=cd9a480aa0c746cae94dbb221240d11c3394795096d393d1ff85c3887a103f06&w=740"
                     alt="pro-image">
                 <h3>Title of the Project</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi maxime, excepturi esse odio hic
                     dolore nemo possimus, tenetur quas, vero officiis autem sint quam! Aspernatur illum placeat hic eveniet.</p>
             </div>
-            <div id="project">
+            <div id="project" data-aos="zoom-in">
                 <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_23-2149365021.jpg?t=st=1714468800~exp=1714472400~hmac=cd9a480aa0c746cae94dbb221240d11c3394795096d393d1ff85c3887a103f06&w=740"
                     alt="pro-image">
                 <h3>Title of the Project</h3>
@@ -126,5 +131,56 @@
     <footer>
         This site belongs to <span>NareshIt</span> &copy; 2024
     </footer>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });        </script>
+       
+        <!--Flow of document -->
 </body>
 </html>
