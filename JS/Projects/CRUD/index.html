@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD APP</h1>
+    <form action="main.java" id="form">
+       <div class="input">
+        <label for="name">Enter the username</label>
+        <input type="text" placeholder="Enter the name" id="name" name="name">
+       </div><br>
+    <div class="input">
+        <label for="email">Enter the Email</label>
+        <input type="email" placeholder="Enter the email" id="email" name="email">
+    </div><br>
+    <div class="input">
+        <label for="password">Enter the password</label>
+        <div>
+            <input type="password" placeholder="Enter the password" id="password" name="password"><button
+                id="pwdtogggle">show</button>
+        </div>
+    </div><br><br>
+    <input type="submit" value="submit" id="submitBtn">
+
+    </form>
+
+
+    <div id="data">
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

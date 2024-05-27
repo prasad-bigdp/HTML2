@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(aliceblue,blue);
+    display: flex;
+    flex-direction: column;
+align-items: center;}
+.input{
+    width: 50vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border-radius: 25px;
+    font-size: 24px;
+}
+#pwdtogggle{
+    background: none;
+    border: none;
+}
+#data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.item{
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+
+}
