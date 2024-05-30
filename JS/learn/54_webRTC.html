@@ -10,10 +10,17 @@
     <video id="localvideo" autoplay muted></video>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
+    <button id="btn">+</button>
    <script>
+    let count=0
    const lv= document.getElementById('localvideo');
    const start=document.getElementById('start');
    const stop=document.getElementById('stop');
+   document.getElementById('btn').addEventListener('click',function(){
+ count++;
+ localStorage.setItem('count',count)
+ console.log(count)
+   })
    start.addEventListener('click',startCall)
       stop.addEventListener('click',stopCall)
 

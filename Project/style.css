@@ -1,0 +1,16 @@
+.carousel-item img{
+    height: 600px;
+    width: 100%;
+}
+.item{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.item img{
+    height: 200px;
+    width: 200px;
+}

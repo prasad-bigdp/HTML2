@@ -56,7 +56,8 @@ const deleteData = (id) =>
         console.log(id)
         
 				axios.delete(`https://dummyjson.com/products/${id}`)
-                .then((res)=>alert("successfully deleted"))
+            .then((res) => alert("successfully deleted"))
+        isApi=false
     }
     else
     {

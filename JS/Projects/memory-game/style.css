@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+#game-container
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:20px auto;
+    width:500px;
+    
+}
+.card
+{
+    width:80px;
+    height:80px;
+    background:#811c1c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+
+}
