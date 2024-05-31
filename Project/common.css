@@ -50,3 +50,35 @@ footer{
     background-color: black;
     color: white;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 1280px;
+    place-items: center;
+}
+.item{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+}
+.item img{
+    height: 200px;
+    width: 200px;
+}
+
+.item:hover{
+transform: scale(1.05);
+}
+#product-details{
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
