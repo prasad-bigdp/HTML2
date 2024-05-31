@@ -1,0 +1,154 @@
+:root{
+    --primary:#000;
+    --secondary:#ea286b;
+    --white:#fff; 
+}
+body
+{
+    box-sizing: border-box;
+}
+ul li{
+list-style-type: none;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+header{
+    background-color: var(--primary);
+    color:var(--white) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+header>img{
+height: 100px;
+}
+header #menu
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#cart button
+{
+ padding: 20px;
+}
+i{
+}
+#cart span
+{
+   font-size: 15px;
+   position: relative;
+   top: -10px;
+   padding: 5px;
+   background-color: var(--secondary);
+   border-radius: 50%;
+}
+button
+{
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 2s ease;
+}
+button:hover{
+    background-color: var(--secondary);
+}
+#products
+{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.product
+{
+    width: calc(100/4);
+    padding: 50px;
+    box-shadow: 8px 8px 6px var(--primary);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product a
+{
+    color: var(--primary);
+}
+.product a:hover
+{
+    color: var(--secondary);
+}
+.product:hover,.cart-product:hover{
+   box-shadow: 8px 8px 6px var(--secondary);
+}
+.product img
+{
+    height: 200px;
+    width: 200px;
+}
+#cart-details
+{
+    padding: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.cart-product img
+{
+  height: 100px;
+  width: 100px;
+}
+.cart-product
+{
+    box-shadow: 8px 8px 6px var(--primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#cart-checkout
+{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-Detail
+{
+     margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#prod-info h2{
+    font-size: 3rem;
+}
+
+#prod-info p
+{
+    font-size: 1.5rem;
+}
+#img img
+{
+    height: 400px;
+    width: 400px;
+}
+#imgs
+{
+    display: flex;
+    gap: 10px;
+}
+.prod-small-image
+{
+    background-color: white;
+}
+.prod-small-image img{
+  height: 70px;
+  width:70px;
+}
+footer
+{
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: center;
+}
